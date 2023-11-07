@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2792b28ea6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header" class="parallax">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Portfolio</a></li>
+                <li><a href="#content">Contact</a></li>
+            </ul>
+        </nav>
+            <div class="header-text">
+                <p>Aspiring Computer Scientist</p>
+                <h1>Hi, I'm <span>Edmond</span> Abraham, <br>computer science student <br>@ DePaul University, Chciago, IL</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------about------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm the digital architect of my own world, crafting code and ideas into the fabric of the digital realm, one keystroke at a time.
+                In my free time, I'm an enthusiastic weightlifter, driven by the pursuit of physical strength and personal growth. When I'm not in
+                the gym, you might find me exploring new recipes in the kitchen, pushing the boundaries of both body and palate.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Activities & Leadership</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming:</span><br> Python, C++, Java, JavaScript, HTML/CSS, SQL, Node.js, R, React</li>
+                        <li><span>Tools:</span><br> Visual Studio Code, matplotlib, pandas, Flask, Google Cloud Platform, GitHub, Bootstrap</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span class="project-title">DePaul Computer Science Society (Member) | Sep 2023 - Present</span><br>
+                        Engaged in a club fostering collaboration on tech projects, expanding knowledge and networking with dedicated peers in academia and industry.</li>
+
+                        <li><span class="project-title">Hot Chocolate Run (Volunteer) | 2023</span><br>
+                        Volunteered for the annual 'Hot Chocolate Run' in Chicago, IL, contributing in the success of this charity event
+                        by assisting with event logistics and serving wherever needed.</li>
+
+                        <li><span class="project-title">Wright Workout Club (Membership Chair) | Jan 2023 - May 2023</span><br>
+                        As the Membership Chair of the Wright Workout Club, I held a role with a primary focus on fostering a 
+                        vibrant and inclusive community within the club. My responsibilities included assisting with advertising for the club,
+                        recruiting and retaining members of the club, and insuring that everyones voices and concerns were heard and adressed.</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span><strong>Expected Gradutaion, May 2025</strong></span><br>B.S in Computer Science @ DePaul University 
+                        <br><strong>Concentration:</strong> Software Engineering/Development
+                        <br><strong>GPA:</strong> 3.56/4.00
+                        <br><strong>Relevant Coursework:</strong> Data Analysis, CS for Programmers, Discrete Mathematics I</li>
+                        <li><span><strong>Graduated July 2023</strong></span><br>A.S in Computer Science @ Wilbur Wright College
+                        <br><strong>Concentration:</strong> Software Engineering/Development
+                        <br><strong>GPA:</strong> 3.56/4.00
+                        <br><strong>Relevant Coursework:</strong> Database Managment, Java Object-Oriented Programming, C++ Object-Oriented Programming, Operating Systems, Fundamentals of Programming in Python</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------Services---------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-arrow-trend-up"></i>
+                <h2>X Stock Bot (Co-Developer)</h2>
+                <p>Developed and deployed a Python-Powered bot designed to provide real-time financial market updates using SMA-based technical analysis to identify Golden Cross 
+                and Golden Death patterns focues on the SPY (SPDR S&P 500 ETF Trust). 
+                <br><br>Through the use of Twitter's API and Twelve Data's API, my team ensures concise and timely
+                updates for followers through real-time data processing.</p>
+                <span class="project-title"><a href="https://twitter.com/GCGDWatcher" target="_blank"><strong> X Page</a> | <a href="https://github.com/3dm0nd6/X-Stock-Bot" target="_blank">GitHub Repository</strong></a></span>
+            </div>
+            <div>
+                <i class="fa-solid fa-music"></i>
+                <h2>Playlist Converter (Creator)</h2>
+                <p>Created a versatile Python program that seamlessly converts Spotify playlists into YouTube Playlists, simplifying the process of sharing,
+                music across platforms. <br><br>This project involved integrating the Spotify and Google APIs to ensure efficient data transfer.</p>
+                <span class="project-title"><a href="https://github.com/3dm0nd6/Playlist-Converter" target="_blank">GitHub Repository</a></span><br>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Wordle Game (Creator)</h2>
+                <p>Recreated the popular "Wordle" game from scratch using the tkinter module in Python, featuring an extensive word
+                database of over 2000 words.</p>
+                <span class="project-title"><a href="https://github.com/3dm0nd6/Bootleg-Wordle" target="_blank">GitHub Repository</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------Contact----------------->
+<div id="content">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> 3dm0nd6@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> (773) 420-7818</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/edmondabraham" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/3dm0nd6" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/resume2023.docx.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your E-Mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2023 Edmond Abraham. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzdZXGJR3X-zHB3Fl8IaIsZsv1gGFi1XdyCl3tawpPvwqkdureD5nwu5I43_Wu2TFrR0A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
